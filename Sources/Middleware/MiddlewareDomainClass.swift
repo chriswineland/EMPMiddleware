@@ -9,7 +9,12 @@ import Foundation
 import Base
 
 open class MiddlewareDomainClass: BaseDomainClass{
+    
     override open func whoAmI() -> String {
         return "MiddlewareDomainClass"
+    }
+    
+    open func middlewhareFunc() -> Bool {
+        return true
     }
 }
